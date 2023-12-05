@@ -1,7 +1,5 @@
 import Button from '../Button'
 
-import starWars from '../../assets/images/star_wars.png'
-
 import {
   CartContainer,
   CartItem,
@@ -59,7 +57,7 @@ const Cart = () => {
           Total de {formataPreco(getTotalPrice())}{' '}
           <span>Em até 6x sem juros</span>{' '}
         </Prices>
-        <Button title="Clique aqui para continuar com a compra" type="button">
+        <Button type="button" title="Clique aqui para continuar com a compra">
           Continuar com a compra
         </Button>
       </Sidebar>

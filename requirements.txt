@@ -1,0 +1,10 @@
+# installed packages
+
+eslint
+prettier
+hash-link
+styled-components
+react-router-dom
+react-redux
+yup
+formik
