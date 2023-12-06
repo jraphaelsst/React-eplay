@@ -1,14 +1,13 @@
 import { useState } from 'react'
 
+import Section from '../Section'
+import { GalleryItem } from '../../pages/Home'
+
 import close from '../../assets/images/close.png'
-import hogwarts from '../../assets/images/fundo_hogwarts.png'
 import play from '../../assets/images/play.png'
-import spiderman from '../../assets/images/banner-homem-aranha.png'
 import zoom from '../../assets/images/zoom.png'
 
 import { Action, Item, Itens, Modal, ModalContent } from './styles'
-import { GalleryItem } from '../../pages/Home'
-import Section from '../Section'
 
 interface ModalState extends GalleryItem {
   isVisible: boolean

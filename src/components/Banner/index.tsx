@@ -1,11 +1,10 @@
-import { Imagem, Precos, Titulo } from './styles'
-
-import Tag from '../Tag'
 import Button from '../Button'
+import Tag from '../Tag'
 
 import { formataPreco } from '../ProductsList'
-
 import { useGetFeaturedGameQuery } from '../../services/api'
+
+import { Imagem, Precos, Titulo } from './styles'
 
 const Banner = () => {
   const { data: game } = useGetFeaturedGameQuery()
